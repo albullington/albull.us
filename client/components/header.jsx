@@ -1,12 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
+import { MenuItem } from '../style';
 
 const Header = () => (
   <div>
-    <Link to="/">Home</Link>
-    <Link to="/engineer">Engineer</Link>
-    <Link to="/communicator">Communicator</Link>
-    <Link to="/athlete">Athlete</Link>
+    <MenuItem to="/">Home</MenuItem>
+    <MenuItem to="/engineer">Engineer</MenuItem>
+    <MenuItem to="/communicator">Communicator</MenuItem>
+    <MenuItem to="/athlete">Athlete</MenuItem>
   </div>
 )
 
