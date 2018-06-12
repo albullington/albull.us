@@ -1,12 +1,12 @@
 import React from 'react';
-import { MenuItem } from '../style';
+import { Link } from 'react-router-dom';
 
 const Header = () => (
   <div>
-    <MenuItem>Home</MenuItem>
-    <MenuItem>Engineer</MenuItem>
-    <MenuItem>Communicator</MenuItem>
-    <MenuItem>Athlete</MenuItem>
+    <Link to="/">Home</Link>
+    <Link to="/engineer">Engineer</Link>
+    <Link to="/communicator">Communicator</Link>
+    <Link to="/athlete">Athlete</Link>
   </div>
 )
 
