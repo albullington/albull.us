@@ -1,11 +1,12 @@
 import React from 'react';
+import { MenuItem } from '../style';
 
 const Header = () => (
   <div>
-    <span>Home</span>
-    <span>Engineer</span>
-    <span>Communicator</span>
-    <span>Athlete</span>
+    <MenuItem>Home</MenuItem>
+    <MenuItem>Engineer</MenuItem>
+    <MenuItem>Communicator</MenuItem>
+    <MenuItem>Athlete</MenuItem>
   </div>
 )
 
