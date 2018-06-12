@@ -79,7 +79,31 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar App = function App() {\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      'p',\n      null,\n      'React is compiling correctly'\n    )\n  );\n};\n\nexports.default = App;\n\n//# sourceURL=webpack:///./client/components/app.jsx?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _header = __webpack_require__(/*! ./header */ \"./client/components/header.jsx\");\n\nvar _header2 = _interopRequireDefault(_header);\n\nvar _footer = __webpack_require__(/*! ./footer */ \"./client/components/footer.jsx\");\n\nvar _footer2 = _interopRequireDefault(_footer);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar App = function App() {\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(_header2.default, null),\n    _react2.default.createElement(_footer2.default, null)\n  );\n};\n\nexports.default = App;\n\n//# sourceURL=webpack:///./client/components/app.jsx?");
+
+/***/ }),
+
+/***/ "./client/components/footer.jsx":
+/*!**************************************!*\
+  !*** ./client/components/footer.jsx ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Footer = function Footer() {\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      'span',\n      null,\n      'Contact me'\n    )\n  );\n};\n\nexports.default = Footer;\n\n//# sourceURL=webpack:///./client/components/footer.jsx?");
+
+/***/ }),
+
+/***/ "./client/components/header.jsx":
+/*!**************************************!*\
+  !*** ./client/components/header.jsx ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Header = function Header() {\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      'span',\n      null,\n      'Home'\n    ),\n    _react2.default.createElement(\n      'span',\n      null,\n      'Engineer'\n    ),\n    _react2.default.createElement(\n      'span',\n      null,\n      'Communicator'\n    ),\n    _react2.default.createElement(\n      'span',\n      null,\n      'Athlete'\n    )\n  );\n};\n\nexports.default = Header;\n\n//# sourceURL=webpack:///./client/components/header.jsx?");
 
 /***/ }),
 
