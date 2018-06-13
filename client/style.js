@@ -14,10 +14,22 @@ export const MenuItem = styled(Link)`
 
 export const Menu = styled.span`
   float: right;
-  padding-top: 20px;
+  padding-top: 40px;
 `;
 
 export const BodyText = styled.p`
   font-family: Montserrat;
   font-size: 14px;
+`;
+
+export const BodyLink = styled.a`
+  font-family: Montserrat;
+  font-size: 14px;  
+  color: green;
+  &:link {
+    text-decoration: none;
+  }
+  &:hover {
+    text-decoration: underline;
+  }
 `;

@@ -1,9 +1,10 @@
 import React from 'react';
-import { BodyText } from '../style';
+import { BodyText, BodyLink } from '../style';
 
 const Home = () => (
   <div>
-    <BodyText>This is home screen</BodyText>
+    <BodyText>I'm a builder, a strong communicator, and an athlete.</BodyText>
+    <BodyText>Hiring? <BodyLink href="mailto:albullington@gmail.com">Contact me</BodyLink></BodyText>
   </div>
 )
 
