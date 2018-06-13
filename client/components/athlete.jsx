@@ -1,8 +1,9 @@
 import React from 'react';
+import { BodyText } from '../style';
 
 const Athlete = () => (
   <div>
-    Triathlons, dragon boat, etc. 
+    <BodyText>Triathlons, dragon boat, etc.</BodyText>
   </div>
 )
 

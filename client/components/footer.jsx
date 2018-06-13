@@ -1,8 +1,9 @@
 import React from 'react';
+import { BodyText } from '../style';
 
 const Footer = () => (
   <div>
-    <span>Contact me</span>
+    <BodyText>Contact me</BodyText>
   </div>
 )
 

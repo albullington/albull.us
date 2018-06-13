@@ -1,8 +1,9 @@
 import React from 'react';
+import { BodyText } from '../style';
 
 const Home = () => (
   <div>
-    This is home screen
+    <BodyText>This is home screen</BodyText>
   </div>
 )
 

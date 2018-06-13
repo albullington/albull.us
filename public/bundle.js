@@ -113,7 +113,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Athlete = function Athlete() {\n  return _react2.default.createElement(\n    'div',\n    null,\n    'Triathlons, dragon boat, etc.'\n  );\n};\n\nexports.default = Athlete;\n\n//# sourceURL=webpack:///./client/components/athlete.jsx?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _style = __webpack_require__(/*! ../style */ \"./client/style.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Athlete = function Athlete() {\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      _style.BodyText,\n      null,\n      'Triathlons, dragon boat, etc.'\n    )\n  );\n};\n\nexports.default = Athlete;\n\n//# sourceURL=webpack:///./client/components/athlete.jsx?");
 
 /***/ }),
 
@@ -125,7 +125,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Communicator = function Communicator() {\n  return _react2.default.createElement(\n    'div',\n    null,\n    'In my previous roles, I was a marketer. I practice NVC.'\n  );\n};\n\nexports.default = Communicator;\n\n//# sourceURL=webpack:///./client/components/communicator.jsx?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _style = __webpack_require__(/*! ../style */ \"./client/style.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Communicator = function Communicator() {\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      _style.BodyText,\n      null,\n      'In my previous roles, I was a marketer. I practice NVC.'\n    )\n  );\n};\n\nexports.default = Communicator;\n\n//# sourceURL=webpack:///./client/components/communicator.jsx?");
 
 /***/ }),
 
@@ -137,7 +137,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Engineer = function Engineer() {\n  return _react2.default.createElement(\n    'div',\n    null,\n    'I build web apps in React, JavaScript, and Node.js. Here are some examples of projects.'\n  );\n};\n\nexports.default = Engineer;\n\n//# sourceURL=webpack:///./client/components/engineer.jsx?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _style = __webpack_require__(/*! ../style */ \"./client/style.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Engineer = function Engineer() {\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      _style.BodyText,\n      null,\n      'I build web apps in React, JavaScript, and Node.js. Here are some examples of projects.'\n    )\n  );\n};\n\nexports.default = Engineer;\n\n//# sourceURL=webpack:///./client/components/engineer.jsx?");
 
 /***/ }),
 
@@ -149,7 +149,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Footer = function Footer() {\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      'span',\n      null,\n      'Contact me'\n    )\n  );\n};\n\nexports.default = Footer;\n\n//# sourceURL=webpack:///./client/components/footer.jsx?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _style = __webpack_require__(/*! ../style */ \"./client/style.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Footer = function Footer() {\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      _style.BodyText,\n      null,\n      'Contact me'\n    )\n  );\n};\n\nexports.default = Footer;\n\n//# sourceURL=webpack:///./client/components/footer.jsx?");
 
 /***/ }),
 
@@ -161,7 +161,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _style = __webpack_require__(/*! ../style */ \"./client/style.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Header = function Header() {\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      _style.MenuItem,\n      { to: '/' },\n      'Home'\n    ),\n    _react2.default.createElement(\n      _style.MenuItem,\n      { to: '/engineer' },\n      'Engineer'\n    ),\n    _react2.default.createElement(\n      _style.MenuItem,\n      { to: '/communicator' },\n      'Communicator'\n    ),\n    _react2.default.createElement(\n      _style.MenuItem,\n      { to: '/athlete' },\n      'Athlete'\n    )\n  );\n};\n\nexports.default = Header;\n\n//# sourceURL=webpack:///./client/components/header.jsx?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _logo = __webpack_require__(/*! ../img/logo.png */ \"./client/img/logo.png\");\n\nvar _logo2 = _interopRequireDefault(_logo);\n\nvar _style = __webpack_require__(/*! ../style */ \"./client/style.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Header = function Header() {\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement('img', { id: 'logo', src: _logo2.default, alt: 'Amanda Bullington', width: '200px' }),\n    _react2.default.createElement(\n      _style.Menu,\n      null,\n      _react2.default.createElement(\n        _style.MenuItem,\n        { to: '/' },\n        'Home'\n      ),\n      _react2.default.createElement(\n        _style.MenuItem,\n        { to: '/engineer' },\n        'Engineer'\n      ),\n      _react2.default.createElement(\n        _style.MenuItem,\n        { to: '/communicator' },\n        'Communicator'\n      ),\n      _react2.default.createElement(\n        _style.MenuItem,\n        { to: '/athlete' },\n        'Athlete'\n      )\n    )\n  );\n};\n\nexports.default = Header;\n\n//# sourceURL=webpack:///./client/components/header.jsx?");
 
 /***/ }),
 
@@ -173,7 +173,18 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Home = function Home() {\n  return _react2.default.createElement(\n    'div',\n    null,\n    'This is home screen'\n  );\n};\n\nexports.default = Home;\n\n//# sourceURL=webpack:///./client/components/home.jsx?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _style = __webpack_require__(/*! ../style */ \"./client/style.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Home = function Home() {\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      _style.BodyText,\n      null,\n      'This is home screen'\n    )\n  );\n};\n\nexports.default = Home;\n\n//# sourceURL=webpack:///./client/components/home.jsx?");
+
+/***/ }),
+
+/***/ "./client/img/logo.png":
+/*!*****************************!*\
+  !*** ./client/img/logo.png ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/logo.png\";\n\n//# sourceURL=webpack:///./client/img/logo.png?");
 
 /***/ }),
 
@@ -197,7 +208,7 @@ eval("\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/i
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.MenuItem = undefined;\n\nvar _templateObject = _taggedTemplateLiteral(['\\n  padding-right: 20px;\\n  font-size: 20px;\\n  text-decoration: none;\\n  color: green;\\n'], ['\\n  padding-right: 20px;\\n  font-size: 20px;\\n  text-decoration: none;\\n  color: green;\\n']);\n\nvar _styledComponents = __webpack_require__(/*! styled-components */ \"./node_modules/styled-components/dist/styled-components.browser.es.js\");\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _reactRouterDom = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/es/index.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\nvar MenuItem = exports.MenuItem = (0, _styledComponents2.default)(_reactRouterDom.Link)(_templateObject);\n\n//# sourceURL=webpack:///./client/style.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.BodyText = exports.Menu = exports.MenuItem = undefined;\n\nvar _templateObject = _taggedTemplateLiteral(['\\n  padding-right: 25px;\\n  font-family: Montserrat;\\n  font-size: 20px;\\n  text-decoration: none;\\n  color: green;\\n  &:hover {\\n    text-decoration: underline;\\n  }\\n'], ['\\n  padding-right: 25px;\\n  font-family: Montserrat;\\n  font-size: 20px;\\n  text-decoration: none;\\n  color: green;\\n  &:hover {\\n    text-decoration: underline;\\n  }\\n']),\n    _templateObject2 = _taggedTemplateLiteral(['\\n  float: right;\\n  padding-top: 20px;\\n'], ['\\n  float: right;\\n  padding-top: 20px;\\n']),\n    _templateObject3 = _taggedTemplateLiteral(['\\n  font-family: Montserrat;\\n  font-size: 14px;\\n'], ['\\n  font-family: Montserrat;\\n  font-size: 14px;\\n']);\n\nvar _styledComponents = __webpack_require__(/*! styled-components */ \"./node_modules/styled-components/dist/styled-components.browser.es.js\");\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _reactRouterDom = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/es/index.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\nvar MenuItem = exports.MenuItem = (0, _styledComponents2.default)(_reactRouterDom.Link)(_templateObject);\n\nvar Menu = exports.Menu = _styledComponents2.default.span(_templateObject2);\n\nvar BodyText = exports.BodyText = _styledComponents2.default.p(_templateObject3);\n\n//# sourceURL=webpack:///./client/style.js?");
 
 /***/ }),
 
