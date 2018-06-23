@@ -33,3 +33,17 @@ export const BodyLink = styled.a`
     text-decoration: underline;
   }
 `;
+
+export const ResponsiveIframe = styled.div`
+  position: relative; 
+  padding-bottom: 75%; 
+  height: 0; 
+  overflow: hidden;
+`;
+
+export const FooterStyle = styled.footer`
+  position: relative;
+  bottom: 0;
+  text-align: center;
+`;
+
