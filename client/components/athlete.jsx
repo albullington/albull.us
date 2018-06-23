@@ -5,7 +5,7 @@ import { BodyText, ResponsiveIframe } from '../style';
 
 const Athlete = () => (
   <div>
-    <BodyText>Being an athlete is about efficiency. Every second matters, so I need to improve my swimming strokes, ride my bike with increasing power, and run incrementally faster to make it happily over the finish line.</BodyText>
+    <BodyText>Being a triathlete is about efficiency. Every second matters, so I need to improve my swimming strokes, ride my bike with increasing power, and run incrementally faster to make it happily over the finish line.</BodyText>
     <BodyText>It's about being organized. I track my race times in spreadsheets and stick to a diligent training schedule (see below).</BodyText>
     <BodyText>Finally, it's about friendship. My closest friends are workout buddies -- we motivate each other to keep going.</BodyText>
     <BodyText>Inspired to train with me? Join me for a workout from June 25-Sept 8, 2018:</BodyText>
