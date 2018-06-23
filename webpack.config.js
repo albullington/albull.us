@@ -24,7 +24,7 @@ module.exports = {
         },
       },
       {
-        test: /\.(png)$/,
+        test: /\.(png|jp(e*)g)$/,
         include: CLIENT_DIR,
         loader: 'url-loader',
         options: {

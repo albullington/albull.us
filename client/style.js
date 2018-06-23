@@ -41,6 +41,7 @@ export const BodyLink = styled.a`
   &:hover {
     text-decoration: underline;
   }
+  padding-right: 10px;
 `;
 
 export const ResponsiveIframe = styled.div`
