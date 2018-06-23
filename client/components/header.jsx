@@ -1,11 +1,11 @@
 import React from 'react';
 
 import logo from '../img/logo.png';
-import { Container, Menu, MenuItem } from '../style';
+import { Container, Menu, MenuItem, HomeLink } from '../style';
 
 const Header = () => (
   <Container>
-    <img id="logo" src={logo} alt="Amanda Bullington" width="200px" />
+    <HomeLink to="/"><img id="logo" src={logo} alt="Amanda Bullington" width="200px" /></HomeLink>
     <Menu>
     <MenuItem to="/">Home</MenuItem>
     <MenuItem to="/engineer">Engineer</MenuItem>

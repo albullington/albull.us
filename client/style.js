@@ -21,6 +21,19 @@ export const MenuItem = styled(Link)`
   }
 `;
 
+export const HomeLink = styled(Link)`
+  font-family: Montserrat;
+  font-size: 20px;  
+  color: green;
+  &:link {
+    text-decoration: none;
+  }
+  &:hover {
+    text-decoration: underline;
+  }
+  padding-right: 10px;
+`;
+
 export const Menu = styled.span`
   float: right;
   padding-top: 40px;
@@ -29,6 +42,10 @@ export const Menu = styled.span`
 export const BodyText = styled.p`
   font-family: Montserrat;
   font-size: 20px;
+`;
+
+export const BodyTextCenter = BodyText.extend`
+  text-align: center;
 `;
 
 export const BodyLink = styled.a`

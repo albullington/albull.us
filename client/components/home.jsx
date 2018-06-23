@@ -1,14 +1,14 @@
 import React from 'react';
-import { BodyText, BodyLink, Container } from '../style';
 
+import { BodyTextCenter, BodyLink, HomeLink, Container } from '../style';
 import header from '../img/home/header.jpg';
 
 const Home = () => (
   <Container>
-    <img id="header" src={header} alt="header" width="100%" />
-    <BodyText>I love building programs, improving processes, and making things more efficient.</BodyText>
-    <BodyText>I believe creating products requires a high degree of user empathy.</BodyText>
-    <BodyText>Hiring? <BodyLink href="mailto:albullington@gmail.com">Contact me</BodyLink></BodyText>
+    <HomeLink to="/athlete"><img id="header" src={header} alt="header" width="100%" /></HomeLink>
+    <BodyTextCenter>I love <HomeLink to="/engineer">building programs,</HomeLink>improving processes, and <HomeLink to="/athlete">making things more efficient.</HomeLink></BodyTextCenter>
+    <BodyTextCenter>I believe creating products requires a high degree of user empathy and <HomeLink to="/communication">strong communication.</HomeLink></BodyTextCenter>
+    <BodyTextCenter>Hiring? <BodyLink href="mailto:albullington@gmail.com">Contact me.</BodyLink></BodyTextCenter>
   </Container>
 )
 
