@@ -40,12 +40,13 @@ export const Menu = styled.span`
 `;
 
 export const BodyText = styled.p`
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   font-family: Montserrat;
   font-size: 20px;
-`;
-
-export const BodyTextCenter = BodyText.extend`
-  text-align: center;
+  width: 75%;
 `;
 
 export const BodyLink = styled.a`
@@ -64,6 +65,7 @@ export const BodyLink = styled.a`
 export const ResponsiveIframe = styled.div`
   position: relative; 
   padding-bottom: 75%; 
+  padding-left: 30px;
   height: 0; 
   overflow: hidden;
 `;

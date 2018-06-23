@@ -10,6 +10,7 @@ const Header = () => (
     <MenuItem to="/">Home</MenuItem>
     <MenuItem to="/engineer">Engineer</MenuItem>
     <MenuItem to="/communicator">Communicator</MenuItem>
+    <MenuItem to="/photographer">Photographer</MenuItem>
     <MenuItem to="/athlete">Athlete</MenuItem>
     </Menu>
   </Container>

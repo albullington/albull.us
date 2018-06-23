@@ -1,5 +1,5 @@
 import React from 'react';
-import { BodyTextCenter, BodyLink } from '../style';
+import { BodyText, BodyLink } from '../style';
 
 import twitter from '../img/engineer/twitter-analytics.png';
 
@@ -12,8 +12,8 @@ const imgStyle = {
 
 const Engineer = () => (
   <div>
-    <BodyTextCenter>I love problem solving. As an engineer, I build web apps in React, JavaScript, and Node.js. Before moving into engineering, I built new marketing programs and processes from the ground up at San Francisco fintech startups NerdWallet and Ripple.</BodyTextCenter>
-    <BodyTextCenter>Here are some examples of my projects:</BodyTextCenter> 
+    <BodyText>Problem solving is fun! As an engineer, I build web apps - typically in React, JavaScript, and Node.js.</BodyText>
+    <BodyText>Here are some examples of my projects, which you can also find on my <BodyLink href="https://github.com/albullington/">GitHub:</BodyLink></BodyText> 
     <BodyLink href="https://github.com/albullington/twitter-sentiments">
     <img src={twitter} style={imgStyle} />
     </BodyLink>

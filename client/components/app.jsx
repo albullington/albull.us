@@ -6,6 +6,7 @@ import Footer from './footer';
 import Home from './home';
 import Engineer from './engineer';
 import Communicator from './communicator';
+import Photographer from './photographer';
 import Athlete from './athlete';
 
 const App = () => (
@@ -15,6 +16,7 @@ const App = () => (
   <Route exact path="/" component={Home} />
   <Route path="/engineer" component={Engineer} />
   <Route path="/communicator" component={Communicator} />
+  <Route path="/photographer" component={Photographer} />
   <Route path="/athlete" component={Athlete} />
   <Footer />
   </div>
