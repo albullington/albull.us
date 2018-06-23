@@ -19,12 +19,12 @@ export const Menu = styled.span`
 
 export const BodyText = styled.p`
   font-family: Montserrat;
-  font-size: 14px;
+  font-size: 20px;
 `;
 
 export const BodyLink = styled.a`
   font-family: Montserrat;
-  font-size: 14px;  
+  font-size: 20px;  
   color: green;
   &:link {
     text-decoration: none;
