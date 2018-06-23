@@ -1,6 +1,12 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
+export const Container = styled.div`
+  position: relative; 
+  padding-bottom: 10px; 
+  overflow: hidden;
+`;
+
 export const MenuItem = styled(Link)`
   padding-right: 25px;
   font-family: Montserrat;
@@ -9,6 +15,9 @@ export const MenuItem = styled(Link)`
   color: green;
   &:hover {
     text-decoration: underline;
+  }; 
+  @media only screen and (max-width : 750px) {
+    font-size: 14px;
   }
 `;
 

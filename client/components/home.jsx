@@ -1,12 +1,12 @@
 import React from 'react';
-import { BodyText, BodyLink } from '../style';
+import { BodyText, BodyLink, Container } from '../style';
 
 const Home = () => (
-  <div>
+  <Container>
     <BodyText>I love building programs, improving processes, and making things more efficient.</BodyText>
-    <BodyText>I believe all products should be built with the end user in mind.</BodyText>
+    <BodyText>I believe creating products requires a high degree of user empathy.</BodyText>
     <BodyText>Hiring? <BodyLink href="mailto:albullington@gmail.com">Contact me</BodyLink></BodyText>
-  </div>
+  </Container>
 )
 
 export default Home;

@@ -1,10 +1,10 @@
 import React from 'react';
 
 import logo from '../img/logo.png';
-import { Menu, MenuItem } from '../style';
+import { Container, Menu, MenuItem } from '../style';
 
 const Header = () => (
-  <div>
+  <Container>
     <img id="logo" src={logo} alt="Amanda Bullington" width="200px" />
     <Menu>
     <MenuItem to="/">Home</MenuItem>
@@ -12,7 +12,7 @@ const Header = () => (
     <MenuItem to="/communicator">Communicator</MenuItem>
     <MenuItem to="/athlete">Athlete</MenuItem>
     </Menu>
-  </div>
+  </Container>
 )
 
 export default Header;
