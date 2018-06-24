@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
-    "compile": "webpack --watch"
+    "compile": "webpack --watch --history-api-fallback"
   },
   "author": "Amanda Bullington",
   "license": "ISC",
