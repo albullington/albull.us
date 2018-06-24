@@ -10,48 +10,29 @@ const imgStyle = {
   marginRight: 'auto',
 };
 
+const photoTags = ['BkGsyOQHVS-', 'Bjp7WJznQS_', 'BkQTDvzHnsi'];
+
 const Photographer = () => (
   <div>
   <BodyText>I find beauty in natural landscapes and city skylines. Here are a few examples of my recent photography -- visit my <BodyLink href="https://www.instagram.com/albullington/">Instagram feed</BodyLink>to see more. </BodyText>
-  <InstagramEmbed
-    url='https://www.instagram.com/p/BkGsyOQHVS-/'
-    style={imgStyle}
-    maxWidth={280}
-    hideCaption={true}
-    containerTagName='div'
-    protocol=''
-    injectScript
-    onLoading={() => {}}
-    onSuccess={() => {}}
-    onAfterRender={() => {}}
-    onFailure={() => {}}
-  />
-  <InstagramEmbed
-    url='https://www.instagram.com/p/Bjp7WJznQS_/?taken-by=albullington'
-    style={imgStyle}
-    maxWidth={280}
-    hideCaption={true}
-    containerTagName='div'
-    protocol=''
-    injectScript
-    onLoading={() => {}}
-    onSuccess={() => {}}
-    onAfterRender={() => {}}
-    onFailure={() => {}}
-  />
-  <InstagramEmbed
-    url='https://www.instagram.com/p/BkQTDvzHnsi/'
-    style={imgStyle}
-    maxWidth={280}
-    hideCaption={true}
-    containerTagName='div'
-    protocol=''
-    injectScript
-    onLoading={() => {}}
-    onSuccess={() => {}}
-    onAfterRender={() => {}}
-    onFailure={() => {}}
-  />
+  { photoTags.map((item) => {
+      return ( 
+        <InstagramEmbed
+          url={`https://www.instagram.com/p/${item}/`}
+          style={imgStyle}
+          key={item.toString()}
+          maxWidth={280}
+          hideCaption={true}
+          containerTagName='div'
+          injectScript
+          onLoading={() => {}}
+          onSuccess={() => {}}
+          onAfterRender={() => {}}
+          onFailure={() => {}}
+        />
+      )
+    })
+  }
   </div>
 )
 
