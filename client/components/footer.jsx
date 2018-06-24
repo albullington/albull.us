@@ -7,8 +7,8 @@ import email from '../img/icons/email.png';
 import instagram from '../img/icons/instagram.png';
 
 const imgStyle = {
-  width: '10%',
-  height: '10%',
+  width: '7%',
+  height: '7%',
 };
 
 const Footer = () => (

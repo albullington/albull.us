@@ -65,7 +65,7 @@ export const BodyLink = styled.a`
 export const ResponsiveIframe = styled.div`
   position: relative; 
   padding-bottom: 75%; 
-  padding-left: 30px;
+  padding-left: 16%;
   height: 0; 
   overflow: hidden;
 `;

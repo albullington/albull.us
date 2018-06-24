@@ -14,7 +14,7 @@ const photoTags = ['BkGsyOQHVS-', 'Bjp7WJznQS_', 'BkQTDvzHnsi'];
 
 const Photographer = () => (
   <div>
-  <BodyText>I find beauty in natural landscapes and city skylines. Here are a few examples of my recent photography -- visit my <BodyLink href="https://www.instagram.com/albullington/">Instagram feed</BodyLink>to see more. </BodyText>
+  <BodyText>I find beauty in natural landscapes and city skylines. Here are a few examples of my recent photography -- visit my <BodyLink href="https://www.instagram.com/albullington/">Instagram feed</BodyLink>for more. </BodyText>
   { photoTags.map((item) => {
       return ( 
         <InstagramEmbed
